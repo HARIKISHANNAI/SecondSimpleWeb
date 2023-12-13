@@ -1,0 +1,174 @@
+.main{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #212529;
+    color: whitesmoke;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.navbar{
+    width: 100%;
+    background-color: #212529;
+    height: 10%;
+}
+#nv{
+    color: whitesmoke;
+}
+.navbar li{
+    display: flex;
+    margin-left: 3vw;
+    list-style: none;
+}
+.navbar li a{
+    color: whitesmoke;
+    list-style: none;
+    text-decoration: none;
+}
+#myCarousel{
+    height: 40vw;
+    width: 100%;
+}
+.sbi{
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 1vw;
+    padding-left: 2vw;
+}
+.carousel img{
+    height: 35vw;
+    width: 100%;
+    text-align: center;
+}
+.gallery{
+    margin-top: 1vw;
+    width: 100%;
+    height: 70%;
+}
+.album{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5%;
+}
+#bx i{
+    color: #F2C13F;
+}
+#bx{
+    border-radius: 5%;
+    margin: 2vw;
+    border: 2px solid black;
+    height: 20vw;
+}
+#bx img{
+    width: 100%;
+    height: 70%;
+}
+.Cutomer h3{
+    color: #F2C13F;
+}
+.customer{
+    height: 30vw;
+    width: 100%;
+}
+#cutomer h3{
+    justify-content: center;
+    text-align: center;
+}
+.cm{
+    margin-left: 4vw;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.cm img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.about{
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+.contectUs{
+    display: flex;
+    justify-content: space-around;
+    height: 25vw;
+    width: 100vw;
+}
+#ssm ul{
+    display: flex;
+}
+#ssm ul li{
+    display: flex;
+    margin-left: 2vw;
+}
+.cm h2{
+    color: #F2C13F;
+}
+#service h3{
+    color: #F2C13F;
+}
+#about h2{
+    color: #F2C13F;
+}
+#about li a{
+    color: #F2C13F;
+}
+#ssm{
+    margin-top: 2vh;
+}
+
+@media(max-width:600px){
+    .album{
+        margin-top: 2vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5vh;
+    }
+    .cm{
+        margin-top: 2vh;
+        margin-left: 4vw;
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+    }
+    .about{
+        width: 100%;
+        height: 60vw;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+    ul li{
+        list-style: none;
+    }
+    .Service{
+        width: 40vw;
+    }
+    .contectUs{
+        margin-top: 3vh;
+        display: flex;
+        justify-content: space-around;
+        height: 55vh;
+        width: 100vw;
+    }
+    #ssm{
+        margin: 1vw;
+        background-color: #212529;
+    }
+}
